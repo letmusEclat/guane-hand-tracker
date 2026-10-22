@@ -1,0 +1,6 @@
+mediapipe>=1.1,<2
+numpy>=2,<3
+# MediaPipe usa la distribucion contrib, que tambien incluye los modulos
+# normales de OpenCV. No instalar opencv-python a la vez: ambos proveen cv2.
+opencv-contrib-python>=5,<6
+
